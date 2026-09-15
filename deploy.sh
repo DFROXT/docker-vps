@@ -9,7 +9,7 @@ service ssh start || /usr/sbin/sshd
 mkdir -p /root/.config/ngrok
 cat > /root/.config/ngrok/ngrok.yml << 'NGROK'
 version: "2"
-authtoken: 3JLwZEDZgonwhihtYUgZev5EcLw_3UQA6T7dz5pMRtmd2yT9VHA
+authtoken: 3JLwZEDZgonwhihtYUgZev5EcLw_3UQA6T7dz5pMRtmd2yT9
 tunnels:
   ssh:
     proto: tcp
