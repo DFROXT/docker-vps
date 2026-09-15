@@ -24,5 +24,5 @@ sleep 6
 echo "📡 TUNNELS:"
 curl -s http://localhost:4040/api/tunnels || true
 echo ""
-echo "🔥 READY - root:dev / dev:dev"
+echo "🔥 READY - root:dev"
 tail -f /dev/null
